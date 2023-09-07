@@ -1,0 +1,103 @@
+/* <!--------------------------media-query-mobile------------------------------> */
+
+@media only screen and (max-width: 767px) {
+    .mobile-section-hide{
+        display: none;
+    }
+	.col-xs{
+        max-width: 50%;
+        float: left;
+    }
+    .footer-social {
+        margin: 35px 0px 35px;
+    }
+    .custom-breadcrumbs{
+        min-height: 200px;
+    }
+    .main-heading {
+        margin: 10px 0px;
+    }
+    .main-heading h2 {
+        font-size: 35px;
+        line-height: 45px;
+    } 
+    .company-overview-content {
+        margin: 10px 0px 15px;
+    }
+    .custom-p {
+        font-size: 15px;
+    }
+    .company-overview-box{
+        text-align: center;
+    }
+    .quick-submit {
+        padding: 10px 45px;
+        font-size: 15px;
+    }
+    .fancy-box {
+        margin: 15px 0px;
+    }
+    .border-box {
+        margin: 15px 0px;
+    }
+    .call-to-content {
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .call-to-content h5 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    #minimal-bootstrap-carousel.slider-home-one .carousel-inner .carousel-item{
+        min-height: 300px !important;
+    }
+    .slider-content-style .content h3 {
+        font-size: 30px;
+    }
+    
+    .slider-content-style .content h4 {
+        font-size: 40px;
+    }
+    
+    .slider-content-style .content h5 {
+        font-size: 30px;
+    }
+    .slider-bottom-form {
+        position: relative;
+        width: 100%;
+        top: 0px;
+    }
+    .slider-bottom-form{
+        background: #F8F8F8;
+        padding: 30px 0px;
+    }
+    .who-use-content, .why-us-content {
+        margin-top: 2rem;
+    }
+    .pricing-box, .call-to-btn-p{
+        text-align: center;
+    }
+    .price-packages-ui {
+        width: 1000px;
+    }
+    .seo-pricing .col-md-12 {
+        overflow: auto;
+    }
+    .solid-box {
+        margin-bottom: 20px;
+    }
+    .custom-list ul li {
+        font-size: 12px;
+    }
+}
+/* <!--------------------------media-query-desktop------------------------------> */
+
+@media only screen and (min-width: 768px) {
+    .desktop-section-hide{
+        display: none;
+    }
+    .contact-form{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
